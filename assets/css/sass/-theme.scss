@@ -1,0 +1,13 @@
+/**
+ * wp-theme
+ *
+ * Copyright (c) 2017 Jeff Mattson
+ * Licensed under the GPL-2.0+ license.
+ */
+@import 'settings';
+@import '../../../node_modules/foundation-sites/assets/foundation';
+@import 'site-wide';
+@import 'header';
+@import 'footer';
+@import 'templates/home';
+@import 'templates/generic';
