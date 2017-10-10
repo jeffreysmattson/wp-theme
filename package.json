@@ -1,16 +1,16 @@
 {
   "name": "-theme",
-  "title": "211-theme",
-  "description": "Custom theme for Granite United Way",
+  "title": "wp-theme",
+  "description": "Simple theme,  but not too simple.",
   "version": "0.1.0",
-  "homepage": "http://wedu.com",
+  "homepage": "none",
   "repository": {
     "type": "git",
     "url": ""
   },
   "author": {
     "name": "Jeff Mattson",
-    "email": "jeff@wedu.com",
+    "email": "jeff@layer7web.com",
     "url": "https://github.com/jeffreysmattson"
   },
   "devDependencies": {
