@@ -19,9 +19,9 @@
             <?php 
             wp_nav_menu( array(
                                 'theme_location' => 'primary',
-                                'menu_id'           => '',
-                                'menu_class'        => 'menu dropdown',
-                                'container'         => '',
+                                'menu_id'        => '',
+                                'menu_class'     => 'menu dropdown',
+                                'container'      => '',
                                 'items_wrap'     => '<ul data-dropdown-menu class="%2$s" id="%1$s">%3$s</ul>'
                             ));
             ?>
