@@ -13,8 +13,9 @@
             wp_nav_menu( array(
                             'theme_location' => 'footer_menu',
                             'menu_class'     => 'menu',
-                            'container'      => 'nav',
-                        )); 
+                            'menu_id'        => 'footerMenu',
+                            'container'      => 'ul',
+                        ));
             ?>
             </footer>
         </div>

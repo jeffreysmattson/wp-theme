@@ -20,7 +20,8 @@
             wp_nav_menu( array(
                                 'theme_location' => 'primary',
                                 'menu_class'     => 'menu',
-                                'container'      => 'nav',
+                                'menu_id'        => 'headerMenu',
+                                'container'      => 'ul',
                             )); 
             ?>
             </header>

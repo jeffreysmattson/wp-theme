@@ -1,5 +1,5 @@
 /*! wp-theme - v0.1.0
- * 
+ * none
  * Copyright (c) 2017; * Licensed GPL-2.0+ */
 jQuery(function() {
  main_js.init();
