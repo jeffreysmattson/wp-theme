@@ -19,10 +19,11 @@
             <?php 
             wp_nav_menu( array(
                                 'theme_location' => 'primary',
-                                'menu_class'     => 'menu',
-                                'menu_id'        => 'headerMenu',
-                                'container'      => 'ul',
-                            )); 
+                                'menu_id'           => '',
+                                'menu_class'        => 'menu dropdown',
+                                'container'         => '',
+                                'items_wrap'     => '<ul data-dropdown-menu class="%2$s" id="%1$s">%3$s</ul>'
+                            ));
             ?>
             </header>
         </div>

@@ -2,4 +2,9 @@ header{
     height: 100px;
     width: 100%;
     background-color: #b3d3f8;
+    ul{
+    	&.is-dropdown-submenu{
+    		list-style: none;
+    	}
+    }
 }

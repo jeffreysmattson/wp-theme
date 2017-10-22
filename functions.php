@@ -21,6 +21,7 @@ define( 'WEDU_INC',          WEDU_PATH . 'includes/' );
 
 // Include compartmentalized functions
 require_once WEDU_INC . 'functions/core.php';
+require_once WEDU_INC . 'filters.php';
 
 // Include lib classes
 
