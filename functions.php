@@ -21,9 +21,11 @@ define( 'WEDU_INC',          WEDU_PATH . 'includes/' );
 
 // Include compartmentalized functions
 require_once WEDU_INC . 'functions/core.php';
-require_once WEDU_INC . 'filters.php';
 
 // Include lib classes
+require_once WEDU_INC . 'ThemeFilters.php';
 
 // Run the setup functions
 guw\guwTheme\Core\setup();
+
+ThemeFilters::instance();
