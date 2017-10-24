@@ -16,7 +16,7 @@ if ( ! class_exists( 'ThemeFilters' )  ) {
 		/**
 		 * Static Singleton Factory Method
 		 *
-		 * @return MainCalculator
+		 * @return ThemeFilters
 		 */
 		public static function instance() {
 			if ( ! isset( self::$instance ) ) {
@@ -28,11 +28,9 @@ if ( ! class_exists( 'ThemeFilters' )  ) {
 		}
 
 		public function __construct() {
-			// Add filter hooks here.
-		}
-
-		private function exampleFilterFunction(){
-			// Does something here.
+		    // Remove the meta that tells what version of WP we are using
+		    add_filter('the_generator', '__return_empty_string'); 
 		}
 	}
 }
+ThemeFilters::instance();
